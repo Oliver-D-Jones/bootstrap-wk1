@@ -2,3 +2,29 @@
   margin-top: 0rem;
   margin-bottom: 0rem;
 }
+
+@media only screen and (min-width: 600px) {
+  #card-overflow {
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #switchA1{
+    order:2;
+  }
+  #switchA2{
+    order:1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #switchB1{
+    order:2;
+  }
+  #switchB2{
+    order:1;
+  }
+  #switchB3{
+    order:3;
+  }
+}
